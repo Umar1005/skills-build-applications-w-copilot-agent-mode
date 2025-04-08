@@ -6,7 +6,7 @@ INSTALLED_APPS = [
     'corsheaders',
 ]
 
-# Add MongoDB database connection
+# Add Djongo as the database engine
 DATABASES = {
     'default': {
         'ENGINE': 'djongo',
